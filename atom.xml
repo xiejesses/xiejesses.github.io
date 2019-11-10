@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiejesses.github.io</id>
     <title>谢顿的博客</title>
-    <updated>2019-11-10T13:36:44.880Z</updated>
+    <updated>2019-11-10T13:43:26.684Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiejesses.github.io"/>
     <link rel="self" href="https://xiejesses.github.io/atom.xml"/>
@@ -28,6 +28,9 @@
 <p>所以，这有一个办法，假如我们的文本编辑器能捕获到无障碍访问的问题并且在我们开发的过程中提示出来，比如像下面截图中所示：<br>
 <img src="https://res.cloudinary.com/css-tricks/image/upload/c_scale,w_1136,f_auto,q_auto/v1571353333/code-accessibility-warning_q6qahz.jpg" alt=""><br>
 我确信肯定还有很多其他方法能让无障碍访问更加显而易见。已经有一些工具比如 Lighthouse 和浏览器扩展，将无障碍访问（甚至性能体验，另一个隐藏问题）时刻贯穿于我们整个工作流程中，确保我们无法忽视它。这样的工具会鼓励我们去了解问题所在，让我们解决问题时能有所指引，并鼓励我们所有人去关心前端开发中相对被容易被误解的部分。</p>
+<blockquote>
+<p><a href="https://css-tricks.com/why-are-accessible-websites-so-hard-to-build/">原文链接</a></p>
+</blockquote>
 ]]></content>
     </entry>
     <entry>
