@@ -2,15 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiejesses.github.io</id>
     <title>谢顿的博客</title>
-    <updated>2019-11-10T11:06:44.177Z</updated>
+    <updated>2019-11-10T13:36:44.880Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiejesses.github.io"/>
     <link rel="self" href="https://xiejesses.github.io/atom.xml"/>
-    <subtitle>to expect nothing
-depend on nothing</subtitle>
+    <subtitle>to expect nothing &lt;br&gt; depend on nothing</subtitle>
     <logo>https://xiejesses.github.io/images/avatar.png</logo>
     <icon>https://xiejesses.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 谢顿的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么网站的无障碍访问如此难实现？]]></title>
+        <id>https://xiejesses.github.io/post/wei-shi-me-wang-zhan-de-wu-zhang-ai-fang-wen-ru-ci-nan-shi-xian</id>
+        <link href="https://xiejesses.github.io/post/wei-shi-me-wang-zhan-de-wu-zhang-ai-fang-wen-ru-ci-nan-shi-xian">
+        </link>
+        <updated>2019-11-10T12:54:20.000Z</updated>
+        <content type="html"><![CDATA[<p>前几天我和一些前端开发者们聊到为什么很多公司在实现网站的无障碍访问时都遇到困难。为什么实现网站的无障碍访问如此之难？我们学习 HTML 并确保语义化，以为这就是无障碍访问的网站了。在课程的交流期间，有人提到了<a href="https://www.theverge.com/2019/8/1/20750913/dominos-pizza-website-accessible-blind-supreme-court-lawsuit">多米诺披萨案件</a>，这可能是公司因为缺少无障碍访问而被起诉的最著名的一个例子。</p>
+<p>下面是从那个案件里摘抄的一小段</p>
+<blockquote>
+<p>根据 CNBC 的数据，去年关于网站无障碍访问的诉讼比 2017 年增长了 58%，达到 2200 多起。</p>
+</blockquote>
+<p>网站的无障碍访问并不仅仅是设计师和工程师，同样是公司的法律团队需要考虑的很严重的问题。不过值得庆幸的是，更多这样的案件将会被审判，（我的希望是）这将会使开发者们注重语义化并成为前端开发者的最佳实践。尽管我想公司应尽最大努力使网站变的更好，并且符合法律最基本的要求，但我们绝对需要将无法实现无障碍访问的网站视为非法，以使人们真正关心此问题。</p>
+<p>然而，我担心人们会因为缺乏这方面的知识归因于故意，我认为很多网站的可访性很差，并不是因为人们不关心，而是因为他们首先没意识到这个问题的存在。随着与前端工程师们继续交流，我意识到未真正解决无障碍访问的原因并不是因为带宽，经验或者钱。</p>
+<p>我认为问题在于网站的无障碍访问可能会无形之中会遭受到破坏。</p>
+<p>举个例子，当开发一个网站的时候，javascript 类型的错误很可能被捕获到，因为哪里出错了会抛出异常。CSS 类型的错误一眼看上去就知道哪里出问题。但是网站的无障碍访问或者性能问题，可能一夜之间就从好转为糟糕，并且毫无预警。唯一解决这种看不见的问题的最好办法就是先让它可以被看见。</p>
+<p>所以，这有一个办法，假如我们的文本编辑器能捕获到无障碍访问的问题并且在我们开发的过程中提示出来，比如像下面截图中所示：<br>
+<img src="https://res.cloudinary.com/css-tricks/image/upload/c_scale,w_1136,f_auto,q_auto/v1571353333/code-accessibility-warning_q6qahz.jpg" alt=""><br>
+我确信肯定还有很多其他方法能让无障碍访问更加显而易见。已经有一些工具比如 Lighthouse 和浏览器扩展，将无障碍访问（甚至性能体验，另一个隐藏问题）时刻贯穿于我们整个工作流程中，确保我们无法忽视它。这样的工具会鼓励我们去了解问题所在，让我们解决问题时能有所指引，并鼓励我们所有人去关心前端开发中相对被容易被误解的部分。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020年上手这10个实战项目让你成为一名前端大师]]></title>
         <id>https://xiejesses.github.io/post/2020-nian-shang-shou-zhe-10-ge-shi-zhan-xiang-mu-rang-ni-cheng-wei-yi-ming-qian-duan-da-shi</id>
