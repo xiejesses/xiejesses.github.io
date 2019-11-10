@@ -34,17 +34,7 @@
             文章目录
           </p>
           <div class="toc-container hidden lg:block">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
-<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
-<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
-<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
-</ul>
-</li>
-</ul>
-
+            
           </div>
         </div>
       
@@ -89,22 +79,65 @@
 <div class="mask" onclick="closeMenu()">
 </div>
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">关于</h1>
+        <h1 class="text-3xl font-bold lg:mt-16">2020年上手这10个实战项目让你成为一名前端大师</h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-01-25 / 1 min read
+          2019-11-10 / 3 min read
         </div>
         
+          <img class="post-feature-image rounded-lg mx-auto my-4" src="https://xiejesses.github.io/post-images/2020-nian-shang-shou-zhe-10-ge-shi-zhan-xiang-mu-rang-ni-cheng-wei-yi-ming-qian-duan-da-shi.jpg" alt="">
+        
         <div class="post-content yue">
-          <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+          <p>我很喜欢 <a href="https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in-2020-n2h">这篇帖子</a> ，他提供了如何在明年提升你前端开发技能的一些想法：</p>
+<ul>
+<li>用 <code>React</code> 开发一个电影搜索 App</li>
+<li>用 <code>Vue</code> 开发一个聊天 App</li>
+<li>用 <code>Angular</code> 开发一个天气 App</li>
+<li>用 <code>Svelte</code> 开发一个 to-do App</li>
+</ul>
+<p>... 还有另外5个类似的。</p>
+<p>所有这些想法都把重点放在了各种 JavaScript 框架身上。</p>
+<p>我的想法是前端开发人员应当把自己当成一名浏览网页的普通用户，你的工作就是处理他们上网时浏览的各种网页。</p>
+<p>我虽然也很喜欢各种 <code>JavaScript</code> 框架，但了解它们并不能让你成为一名优秀的前端开发者。注重性能体验和访问无障碍性，进而以用户为中心才能让你成为前端大师，这远比你构建网站所用的那些技术显得重要。</p>
+<p>认识到这点，以下就是我提供的10个实战：</p>
+<ul>
+<li>
+<p>到 <a href="https://dribbble.com/">Dribbble</a> 上找一个对你有吸引力的例子，然后用 HTML 和 CSS 以最整洁和最易懂的方式重新实现一遍。</p>
+</li>
+<li>
+<p>在你代码库里找一个能抽象出来的组件以便你高效的使用。尽可能考虑无障碍性，你能在多大程度上让你的整个网站变得更加可访问？还有你的 SVG 图标组件，这几天还可以正常访问吗？</p>
+</li>
+<li>
+<p>试一下这里的 <a href="https://serverless.css-tricks.com/services/ssgs/">静态网站生成器</a> （也许其中有一个和 JavaScript 关系不大，只是体验一下就好）。思考下他们的数据来源可能是什么，如果你按计划执行构建又会得到什么。</p>
+</li>
+<li>
+<p>安装这个 <a href="https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/">插件</a> ，然后在你开发的一个重要网站里运行，根据它提供的建议来提升网页的可访问性。</p>
+</li>
+<li>
+<p>研究一下 <a href="https://fractal.build/">Fractal</a> ，看看它是怎样帮你提升前端开发组件化思维的，即便只是 HTML 和 CSS也能组件化。</p>
+</li>
+<li>
+<p>用 HTML/CSS 实现一个对你有用的表单应用，例如收集自由工作者的人员名单。学习所有关于<a href="https://css-tricks.com/form-validation-part-1-constraint-validation-html/">表单验证</a>的知识，看看只用 HTML 你能完成多少，然后用上 CSS，再接着用上原生 JavaScript。最后用这些<a href="https://serverless.css-tricks.com/services/forms/">专门的服务</a>让你的表单真正用起来。</p>
+</li>
+<li>
+<p>了解一下什么是 <a href="https://serverless.css-tricks.com/about/">Serverless</a> ，看看它如何能扩展你的前端开发技能。</p>
+</li>
+<li>
+<p>弄明白如何设计一套 SVG 图标系统，现在很多网站都需要用到图标。<a href="https://css-tricks.com/pretty-good-svg-icon-system/">内联 SVG</a> 是个很好的简单解决方法，但是你能把它封装出来然后在你工作流里简单的引入吗？在你所用的框架里，它又是如何使用的？</p>
+</li>
+<li>
+<p>尝试去上手 <a href="https://developers.google.com/web/fundamentals/primers/service-workers">service worker</a> ，阅读一本关于它的书，做个<a href="https://simpleoffline.website/">小示例</a>，看下这个以 service worker 为核心的<a href="https://developers.google.com/web/tools/workbox">框架</a>。</p>
+</li>
+</ul>
+<blockquote>
+<p><a href="https://css-tricks.com/become-a-front-end-master-in-2020-with-these-10-project-ideas/">原文链接</a></p>
 </blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<h2 id="联系我呀">📬 联系我呀</h2>
 
         </div>
 
+        
+          <a class="animated fadeInUp p-2 items-center text-sm text-gray-700 border hover:bg-gray-300 leading-none rounded-full flex lg:inline-flex m-4 " href="https://xiejesses.github.io/tag/zGZ0SsVXt">
+            <span class="flex-auto">翻译</span>
+          </a>
         
 
 
