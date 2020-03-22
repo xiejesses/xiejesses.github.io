@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>谢顿的博客</title>
+<link rel="shortcut icon" href="https://www.jjdun.com/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://www.jjdun.com/media/css/tailwind.css">
+<link rel="stylesheet" href="https://www.jjdun.com/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="谢顿的博客 - Atom Feed" href="https://www.jjdun.com/atom.xml">
+
+    
+
+  <meta name="description" content="to expect nothing <br> depend on nothing" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+    <a href="https://www.jjdun.com/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+
+    <div class="max-w-4xl w-full mx-auto ">
+      
+        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
+  <div class="flex-1 order-2 md:order-1 md:pr-16">
+    <div class="text-4xl font-bold text-center md:text-left">
+      谢顿的博客
+    </div>
+    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
+      to expect nothing <br> depend on nothing
+    </div>
+    
+    
+  </div>
+  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
+    <img class="rounded-full object-cover" src="https://www.jjdun.com/images/avatar.png?v=1584884768238" alt="谢顿的博客" width="100%" height="100%">
+  </div>
+</header>
+      
+
+      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://www.jjdun.com/post/wei-shi-me-wang-zhan-de-wu-zhang-ai-fang-wen-ru-ci-nan-shi-xian/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          为什么网站的无障碍访问如此难实现？
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-10</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        前几天我和一些前端开发者们聊到为什么很多公司在实现网站的无障碍访问时都遇到困难。为什么实现网站的无障碍访问如此之难？我们学习 HTML 并确保语义化，以为这就是无障碍访问的网站了。在课程的交流期间，有人提到了多米诺披萨案件，这可能是公司因为...
+      </div>
+      <a href="https://www.jjdun.com/post/wei-shi-me-wang-zhan-de-wu-zhang-ai-fang-wen-ru-ci-nan-shi-xian/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://www.jjdun.com/post-images/wei-shi-me-wang-zhan-de-wu-zhang-ai-fang-wen-ru-ci-nan-shi-xian.jpg" alt="为什么网站的无障碍访问如此难实现？">
+    
+  </div>
+
+  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+    
+    <div class="flex-1 order-2 md:order-1">
+      <h2 class="text-2xl font-semibold mb-4">
+        <a href="https://www.jjdun.com/post/2020-nian-shang-shou-zhe-10-ge-shi-zhan-xiang-mu-rang-ni-cheng-wei-yi-ming-qian-duan-da-shi/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+          2020年上手这10个实战项目让你成为一名前端大师
+        </a>
+      </h2>
+      <div class="mb-4 text-xs text-gray-500">2019-11-10</div>
+      <div class="mb-4 text-gray-500 dark:text-gray-300">
+        我很喜欢 这篇帖子 ，他提供了如何在明年提升你前端开发技能的一些想法：
+
+用 React 开发一个电影搜索 App
+用 Vue 开发一个聊天 App
+用 Angular 开发一个天气 App
+用 Svelte 开发一个 to-do App
+...
+      </div>
+      <a href="https://www.jjdun.com/post/2020-nian-shang-shou-zhe-10-ge-shi-zhan-xiang-mu-rang-ni-cheng-wei-yi-ming-qian-duan-da-shi/" class="btn">
+        Read more
+      </a>
+    </div>
+    
+      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://www.jjdun.com/post-images/2020-nian-shang-shou-zhe-10-ge-shi-zhan-xiang-mu-rang-ni-cheng-wei-yi-ming-qian-duan-da-shi.jpg" alt="2020年上手这10个实战项目让你成为一名前端大师">
+    
+  </div>
+  
+      </div>
+
+      
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  xiejesses
+</footer>
+
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://www.jjdun.com/media/scripts/main.js"></script>
+</body>
+
+</html>
