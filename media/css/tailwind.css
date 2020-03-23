@@ -453,6 +453,7 @@ html {
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: #999; /* 2 */
+  overflow-x: hidden;
 }
 
 /*
