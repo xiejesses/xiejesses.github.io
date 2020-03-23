@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiejesses.com</id>
     <title>谢顿的博客</title>
-    <updated>2020-03-23T13:28:45.452Z</updated>
+    <updated>2020-03-23T13:59:53.143Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiejesses.com"/>
     <link rel="self" href="https://xiejesses.com/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://xiejesses.com/images/avatar.png</logo>
     <icon>https://xiejesses.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 谢顿的博客</rights>
-    <entry>
-        <title type="html"><![CDATA[test]]></title>
-        <id>https://xiejesses.com/post/test/</id>
-        <link href="https://xiejesses.com/post/test/">
-        </link>
-        <updated>2020-03-23T13:15:10.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[为什么网站的无障碍访问如此难实现？]]></title>
         <id>https://xiejesses.com/post/wei-shi-me-wang-zhan-de-wu-zhang-ai-fang-wen-ru-ci-nan-shi-xian/</id>

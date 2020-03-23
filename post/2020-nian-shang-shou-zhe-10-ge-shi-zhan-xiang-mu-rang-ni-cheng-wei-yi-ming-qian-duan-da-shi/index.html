@@ -144,6 +144,8 @@
       
 
       
+        <div id="vlaine-comment"></div>
+      
 
       <footer class="py-12 text-center px-4 md:px-0" v-pre>
   xiejesses
@@ -322,6 +324,23 @@
     //初始化
     initImg();
   </script>
+  
+    <script type="application/javascript" src="https://unpkg.com/valine"></script>
+<script type="application/javascript">
+  new Valine({
+    el: '#vlaine-comment',
+    appId: 'cz8tN7sW9DG4i6NEU86BEeSX-gzGzoHsz',
+    appKey: 'yMvXLXv46osv8vgXvBPb1bbO',
+    pageSize: 10,
+    notify: true,
+    avatar: 'mp',
+    verify: false,
+    placeholder: '来都来了，不妨评论一下',
+    visitor: true,
+    highlight: false,
+    recordIP: true,
+  })
+</script>
   
   
 </body>
