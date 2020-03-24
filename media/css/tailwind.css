@@ -10,7 +10,6 @@
 
 html {
   line-height: 1.15; /* 1 */
-  overflow-x: hidden;
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
@@ -23,7 +22,6 @@ html {
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 /**
@@ -453,7 +451,6 @@ html {
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: #999; /* 2 */
-  overflow-x: hidden;
 }
 
 /*
